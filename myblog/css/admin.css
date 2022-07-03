@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* dashboard */
+.dashboard{
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.db-data{
+    width: 250px;
+    height: 150px;
+    background: #234a57;
+    margin: 20px 10px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+
+.db-data .box div{
+    margin: 5px 5px 5px 35px;
+    align-items: center;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: green;
+    font-size: larger;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+}
+/* .dashboard */
+
+header{
+    height: 66px;
+    background: #008489;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header *{
+    color: #fff;
+}
+
+.logo{
+    margin-left: 3em;
+    padding-top: 1em;
+}
+
+.admin-right ul{
+    list-style: none;
+}
+
+.admin-right ul li ul{
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: 180px;
+    display: none;
+    z-index: 88888;
+}
+
+.admin-right ul li:hover ul{
+    display: block;
+}
+
+.admin-right ul li ul li{
+    width: 100%;
+}
+
+.admin-right ul li ul li a{
+    padding: 10px;
+    background: #fff;
+    color: #444;
+}
+
+.admin-right ul li ul li a.logout{
+    color: red;
+}
+
+.admin-right ul li ul li a:hover{
+    background: #d5d6d6;
+}
+
+.admin-right ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+}
+
+.admin-right ul li a:hover{
+    background: #006669;
+    transition: 0.5s;
+}
+
+/* admin wrapper */
+.admin-wrapper{
+    display: flex;
+    height: calc(100% - 66px);
+}
+
+.left-sidebar{
+    flex: 2;
+    background: #234a57;
+}
+
+.left-sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+.left-sidebar ul li a{
+    display: block;
+    padding: 18px;
+    border-bottom: 1px solid #004044;
+    color: #fff;
+}
+
+.left-sidebar ul li a:hover{
+    background: #004044;
+}
+
+.admin-wrapper .admin-content{
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+
+.button-group{
+    margin-bottom: 2.5rem;
+}
+
+.button-group a{
+    background: #004044;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.admin-content .page-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+th,
+td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.edit{
+    color: green;
+}
+
+.delete{
+    color: red;
+}
+
+.publish{
+    color: blue;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover{
+    text-decoration: underline;
+}
+
+form div{
+    margin-bottom: 15px;
+}
+
+/* createpost */
+.text-input{
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #444;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+}
+
+.add-btn{
+    padding: .5rem 1rem;
+    background: #006669;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1.08em;
+    cursor: pointer;
+}
+/* end createpost */
+
+/* createuser */
+
+/* end createuser */
+
+
